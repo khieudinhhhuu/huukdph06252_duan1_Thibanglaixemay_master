@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.ThisathachActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="Thi sát hạch"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+            <com.github.lzyzsd.circleprogress.ArcProgress
+                android:id="@+id/arc_progress1"
+                android:layout_centerInParent="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="110dp"
+                app:arc_stroke_width="4dp"
+                app:arc_progress="0"
+                app:arc_suffix_text="/ 20"
+                custom:arc_bottom_text="Đề số 1"
+                app:arc_finished_color="#f40909"
+                app:arc_unfinished_color="#55a2f4"
+                custom:arc_bottom_text_size="15sp" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+            <com.github.lzyzsd.circleprogress.ArcProgress
+                android:id="@+id/arc_progress2"
+                android:layout_centerInParent="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="110dp"
+                app:arc_stroke_width="4dp"
+                app:arc_progress="0"
+                app:arc_suffix_text="/ 20"
+                custom:arc_bottom_text="Đề số 2"
+                app:arc_finished_color="#f40909"
+                app:arc_unfinished_color="#55a2f4"
+                custom:arc_bottom_text_size="15sp" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+            <com.github.lzyzsd.circleprogress.ArcProgress
+                android:id="@+id/arc_progress3"
+                android:layout_centerInParent="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="110dp"
+                app:arc_stroke_width="4dp"
+                app:arc_progress="0"
+                app:arc_suffix_text="/ 20"
+                custom:arc_bottom_text="Đề số 3"
+                app:arc_finished_color="#f40909"
+                app:arc_unfinished_color="#55a2f4"
+                custom:arc_bottom_text_size="15sp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress4"
+            android:layout_centerInParent="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="110dp"
+            app:arc_stroke_width="4dp"
+            app:arc_progress="0"
+            app:arc_suffix_text="/ 20"
+            custom:arc_bottom_text="Đề số 4"
+            app:arc_finished_color="#f40909"
+            app:arc_unfinished_color="#55a2f4"
+            custom:arc_bottom_text_size="15sp" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress5"
+            android:layout_centerInParent="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="110dp"
+            app:arc_stroke_width="4dp"
+            app:arc_progress="0"
+            app:arc_suffix_text="/ 20"
+            custom:arc_bottom_text="Đề số 5"
+            app:arc_finished_color="#f40909"
+            app:arc_unfinished_color="#55a2f4"
+            custom:arc_bottom_text_size="15sp" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress6"
+            android:layout_centerInParent="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="110dp"
+            app:arc_stroke_width="4dp"
+            app:arc_progress="0"
+            app:arc_suffix_text="/ 20"
+            custom:arc_bottom_text="Đề số 6"
+            app:arc_finished_color="#f40909"
+            app:arc_unfinished_color="#55a2f4"
+            custom:arc_bottom_text_size="15sp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress7"
+            android:layout_centerInParent="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="110dp"
+            app:arc_stroke_width="4dp"
+            app:arc_progress="0"
+            app:arc_suffix_text="/ 20"
+            custom:arc_bottom_text="Đề số 7"
+            app:arc_finished_color="#f40909"
+            app:arc_unfinished_color="#55a2f4"
+            custom:arc_bottom_text_size="15sp" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress8"
+            android:layout_centerInParent="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="110dp"
+            app:arc_stroke_width="4dp"
+            app:arc_progress="0"
+            app:arc_suffix_text="/ 20"
+            custom:arc_bottom_text="Đề số 8"
+            app:arc_finished_color="#f40909"
+            app:arc_unfinished_color="#55a2f4"
+            custom:arc_bottom_text_size="15sp" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="wrap_content" />
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progresschuy"
+            android:layout_centerInParent="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="110dp"
+            app:arc_stroke_width="4dp"
+            app:arc_progress="0"
+            app:arc_suffix_text="/ HD"
+            custom:arc_bottom_text="Chú ý"
+            app:arc_text_color="#ff0011"
+            app:arc_finished_color="#f40909"
+            app:arc_unfinished_color="#ff0011"
+            custom:arc_bottom_text_size="18sp" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

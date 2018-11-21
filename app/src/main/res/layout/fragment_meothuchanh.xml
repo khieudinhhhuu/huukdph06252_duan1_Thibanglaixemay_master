@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/expandableButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:gravity="left|center"
+        android:paddingRight="10dp"
+        android:text="Giới thiệu"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableButton1"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gioi_thieu"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+    <Button
+        android:id="@+id/expandableButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableLayout1"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:gravity="left|center"
+        android:paddingRight="10dp"
+        android:text="Bài 1: Chạy theo vòng số 8"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableButton2"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/chay_vong_so_8"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    <Button
+        android:id="@+id/expandableButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableLayout2"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:gravity="left|center"
+        android:paddingRight="10dp"
+        android:text="Bài 2: Đi vào đường hẹp"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/expandableButton3"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/di_vao_duong_hep"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    <Button
+        android:id="@+id/expandableButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expandableLayout3"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:gravity="left|center"
+        android:paddingRight="10dp"
+        android:text="Bài 3: Chạy đường quanh co"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/expandableButton4"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chay_duong_quanh_co"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    <Button
+        android:id="@+id/expandableButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expandableLayout4"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:gravity="left|center"
+        android:paddingRight="10dp"
+        android:text="Bài 4: Chạy đường gồ ghề"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/expandableButton5"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/chay_duong_go_ghe"
+                android:textColor="#000000" />
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+</RelativeLayout>

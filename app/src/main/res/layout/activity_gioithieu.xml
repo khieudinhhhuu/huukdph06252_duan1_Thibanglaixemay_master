@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.GioithieuActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="Giới thiệu"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tui" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sinh viên: Khiếu Đình Hữu"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dự án 1 - PT13354"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:text="Môn Pro112 - MOB"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="huukdph06252@fpt.edu.vn"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Khóa ngày 11/07/2018"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Project: Thi bằng xe máy A1"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="8dp"
+
+        android:text="Hiện nay, nhằm đáp ứng nhu cầu học và thi bằng lái xe máy được thuận tiện hơn, rất nhiều các ứng dụng thi bằng lái xe máy A1 trên điện thoại nhằm phục vụ nhu cầu trên của mọi người đã, đang và được ra đời. Nhưng trong nhiều ứng dụng đó, người dùng đang băn khoăn đâu là ứng dụng tốt nhất, tiện lợi nhất để có thể sử dụng tiện cho việc ôn luyện.
+Giao diện của ứng dụng gồm 6 mục chính, bạn vào từng mục để tìm hiểu đúng với nhu cầu của bạn. Đây là ứng dụng rất thuận tiện cho việc học lý thuyết bằng lái xe máy A1 trên điện thoại.
+Phần mềm này gồm tất cả 150 câu hỏi ôn tập được chia làm 8 đề, mỗi đề gồm 20 câu làm trong vòng 15 phút. Đạt 16/20 câu trở lên là qua được phần lý thuyết.
+Với sự hướng dẫn của thầy Huynh và các bạn trong lớp."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

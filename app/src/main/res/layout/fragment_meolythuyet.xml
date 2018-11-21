@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/expandableButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:gravity="left|center"
+        android:paddingRight="10dp"
+        android:text="Khái niệm và quy tắc"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/expandableButton1"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/khai_niem_va_quy_tac"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+    <Button
+        android:id="@+id/expandableButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableLayout1"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:gravity="left|center"
+        android:paddingRight="10dp"
+        android:text="Hệ thống biển báo"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableButton2"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/he_thong_bien_bao"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    <Button
+        android:id="@+id/expandableButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableLayout2"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:gravity="left|center"
+        android:paddingRight="10dp"
+        android:text="Sa hình"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/expandableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableButton3"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="false"
+        app:ael_interpolator="bounce"
+        app:ael_orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sa_hinh"
+                android:textColor="#000000" />
+
+        </ScrollView>
+
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+</RelativeLayout>

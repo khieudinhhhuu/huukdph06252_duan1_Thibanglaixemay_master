@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Thi bằng lái xe máy</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="facebook_app_id">279706142750845</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="khai_niem_va_quy_tac">1. Có 3 cái luôn phải nhường: Nhường cho phương tiện đường sắt, nhường cho người đi bộ đang đi trên phần đường dành cho người đi bộ, nhường cho xe đi trên đường chính.
+\n\n2. Những câu có 2 đáp án mà trong câu hỏi có xuất hiện từ “Những”hoặc từ “Các” thì chọn cả 2 đáp án (cái này luôn luôn đúng, vì thế trong câu ưu tiên xét cái này trước, nhớ là chỉ đúng cho câu hỏi có 2 đáp án thôi nhé, câu nào 3 đáp án thì không còn đúng nữa).
+\n\n3. Câu hỏi có 3 đáp án gồm 2 đáp án dài + 1 đáp án ngắn. Thì đầu tiên đọc đề, sau đó đọc đáp án ngắn trước. Nếu đáp án ngắn sai thì bỏ đáp án ngắn chọn 2 đáp án dài còn lại.(không cần đọc 2 đáp án dài tốn thời gian).
+\n\n4. Những câu bắt đầu bằng từ khái niệm và kết thức được hiểu như thế nào là đúng mà trong dấu ngoặc kép” “có các từ: Vạch – phố- dải – phần –>> Chọn đáp án (1).
+\n\n5. Những câu bắt đầu bằng từ KHÁI NIỆM hoặc kết thúc ĐƯỢC HIỂU NHƯ THẾ NÀO LÀ ĐÚNG mà trong dấu ngoặc kép” “có các từ: Ưu – phương- làn –>> Chọn đáp án (2). (câu nào không có chữ KHÁI NIỆM hoặc chữ ĐƯỢC KIỂU NHƯ THẾ NÀO LÀ ĐÚNG thì không áp dụng nhé).
+\n\n6. Những câu hỏi về hành vi bị nghiêm cấm mà trong đáp án có xuất hiện các từ như: “Bị nghiêm cấm”, “Không được phép”, “Không được mang, vác”, “Là thiếu văn hóa giao thông”…Những câu đại loại tương tự như vậy thì chọn đáp án đó.
+\n\n7. Hỏi về người điều khiển giao thông: Có từ “Giang tay”->> Chọn đáp án (1); “Giơ tay”->> Chọn đáp án (2).
+\n\n8.Trong đáp án mà có các con số sau đây là đáp án: 5 mét, 5 năm, 0.25miligam, 50miligam, 18 tuổi, 40km/h.
+\n\n9. Ưu tiên chấp hành theo hiệu lệnh của “người điều khiển giao thông” và “biển báo hiệu tạm thời“.
+\n\n10. Tại nơi giao nhau “Không có báo hiệu đi theo vòng xuyến”->> Chọn đáp án“Nhường đường cho người đi tới từ bên phải”; Ngược lại “Có biển báo đi theo vòng xuyến” ->> Chọn đáp án “Nhường đường cho người đi tới từ bên trái”. Câu hỏi “ không có đảo an toàn xem như không có vòng xuyến ”.
+\n\n11. Hỏi ở “trên cầu”, “trong đường hầm” có được quay đầu xe hay không? –>> Chọn đáp án “Không được quay đầu xe”, nhớ kỹ bất cứ trường hợp nào trong hầm hay trên cầu vượt cũng “không được phép quay đầu xe”.
+\n\n12. Câu hỏi về trong khu vực đông dân cư, nếu hỏi về Đường bộ chọn đáp án số 2 .Nếu hỏi về tốc độ tối đa là 40km/h hoặc 50km/h->> Chọn đáp án có từ “Xe gắn máy”ở cuối câu.
+\n\n13. Câu hỏi “Đảm bảo trật tự, an toàn giao thông là trách nhiệm của ai?“ ->> Chọn đáp án “Là trách nhiệm của cơ quan, tổ chức, cá nhân”. Nghĩa là trách nhiệm của toàn xã hội.
+\n\n14. Với những câu hỏi có 3 đáp án và có đáp án dài + đáp án ngắn thì kinh nghiệm là đáp án nào ngắn đọc trước. Nếu đáp án đó sai thì chọn 2 đáp án dài còn lại. Và ngược lại…
+\n\n15. Câu hỏi “Khi muốn chuyển hướng, người lái xe phải thực hiện như thế nào?” Với câu này thì nên đọc hiểu, ví dụ như khi muốn chuyển hướng cần phải giảm tốc độ và phải xi nhan để cho phương tiện phía sau biết.
+\n\n16. Câu hỏi “Khi tránh xe đi ngược chiều, các xe phải nhường đường như thế nào?“. Đáp án là 1 và 2. Tại sao xe xuống dốc phải nhường đường cho xe lên dốc là do tầm nhìn của xe xuống dốc rộng hơn so với tầm nhìn của xe đang lên dốc.
+\n\n17. Câu hỏi “Trên đường bộ giao nhau cùng mức với đường sắt, cầu đường bộ đi chung với đường sắt thì loại phương tiện nào được quyền ưu tiên đi trước?“. Luôn luôn là đường sắt rồi.
+\n\n18. Câu hỏi “Người điều khiển phương tiện tham gia giao thông trong hầm đường bộ ngoài việc phải tuân thủ các quy tắc giao thông còn phải thực hiện những quy định nào dưới đây?”. Quy tắc bất di bất dịch đó là trong hầm hay trên cầu vượt thì “không được quay đầu xe”. Và bởi vì ở trong hầm do tối nên phải “có vật phát sáng báo hiệu”.
+\n\n19. Câu hỏi “Người ngồi trên xe mô tô 2 bánh, xe mô tô 3 bánh, xe gắn máy phải đội mũ bảo hiểm có cài quai đúng quy cách khi nào?“. Bất cứ khi nào tham gia giao thông đều phải đội mũ bảo hiểm.
+\n\n20. Câu hỏi “Cơ quan nào quy định đoạn đường cấm đi, đường đi một chiều, nơi cấm dừng, cấm đỗ, cấm quay đầu xe, lắp đặt biển báo hiệu đường bộ thuộc địa phương quản lý?“. Câu này chọn đáp án Ủy ban nhân dân cấp tỉnh bởi vì các cơ quan khác còn lại là đơn vị cấp dưới chỉ có nhiệm vụ thi hành, Ủy ban nhân dân cấp tỉnh là đơn vị quyền lực cao nhất ở địa phương.
+\n\n21. Câu hỏi “Khi điều khiển xe chạy trên đường, người lái xe phải mang theo các loại giấy tờ gì?”. Đáp án số 3 đúng, bởi vì xe ô tô thì không được phép mang giấy phép lái xe của xe máy và ngược lại.
+\n\n22. Câu hỏi về nồng độ mà trong câu hỏi có xe ô tô thì chọn đáp án không có con số (câu 7 đề 2).
+\n\n23. Trên đường có nhiều làn đường được phân biệt bằng vạch kẻ thì phải cho xe đi trong một làn đường và chỉ được chuyển ở nơi cho phép.
+\n\n24. Khi có tín hiệu của xe ưu tiên phải : giảm tốc độ, cho xe đi vào lề đường bên phải.
+\n\n25. Câu hỏi có cụm từ đường cao tốc ở cuối câu: Hỏi vào chọn 1 và 3, ra chọn 1, bảo trì chọn 3.
+    </string>
+
+    <string name="he_thong_bien_bao">1. Đối với các câu có biển báo hiệu lệnh được đặt trước ngã ba, ngã tư. Chọn câu 1 nếu câu hỏi 1 dòng, chọn câu 3 nếu câu hỏi 2 dòng.
+    \n\n2. Biển báo cấm máy kéo thì không cấm ô tô tải và ngược lại.
+    \n\n3. Biển báo cấm rẽ trái thì cấm quay đầu và biển cấm quay đầu thì không cấm rẽ trái.
+    \n\n4. Câu hỏi “Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?“. Câu này rất nhiều bạn chọn đáp án là biển 1 và 2. Đáp án phải là biển 1 và 3.
+    \n\n5. Câu hỏi: “Biển nào báo hiệu “Đường giao nhau” của các tuyến đường cùng cấp?”. Biển nào có dấu cộng là biểu thị tuyến đường cùng cấp với nhau.
+    \n\n6. Câu hỏi: “Biển nào báo hiệu cấm xe mô tô ba bánh đi vào?”. Lưu ý câu này: Mẹo cho dễ nhớ là “cấm xe con thì cấm luôn cả 3 bánh”. Cấm xe mô tô 3 bánh thì đương nhiên cũng cấm luôn cả xe mô tô 2 bánh.
+    \n\n7. Câu hỏi “Khi gặp biển nào thì xe mô tô 2 bánh được đi vào?”. Chỉ có biển 1 cấm xe mô tô 2 bánh, 2 biển còn lại không cấm nên vẫn được phép đi vào.
+    \n\n8. Câu hỏi: “Biển nào xe mô tô hai bánh được đi vào?”. Biển loại này ý nghĩa của nó là “Cấm các loại xe ở biển phụ đi vào”.
+    \n\n9. Câu hỏi: “Biển nào báo hiệu cầu vượt liên thông?”. Câu này chọn 2 cái biển giống nhau.
+    \n\n10. Câu hỏi: “Biển nào báo hiệu tuyến đường cầu vượt cắt qua?”. Câu này tương tự câu trên, chọn 2 biển giống nhau.
+    \n\n11. Câu hỏi: “Biển nào báo hiệu đoạn đường hay xảy ra tai nạn?”. Câu này rất dễ làm sai, thường nhiều bạn hay chọn đáp án 3, biển 2 và 3. Biển 3 báo hiệu đoạn đường gồ ghề.
+    \n\n12. Câu hỏi: “Biển nào chỉ dẫn tên đường trên các tuyến đường đối ngoại?”. Câu này chọn Biển AH112.
+    \n\n13. Hỏi về biển nào được quay đầu xe, biển nào được rẽ trái? Nhớ quy tắc sau: “Cấm rẽ trái thì cấm luôn cả quay đầu xe”; Nhưng “Cấm quay đầu xe thì vẫn được rẽ trái”. Lưu ý: Trong bộ đề thi chỉ có duy nhất câu này có 2 đáp án ở phần biển báo.
+    </string>
+
+    <string name="sa_hinh">1. Xét theo quy tắc từ trước đến sau: Nhất lộ -> Nhị ưu -> Tam đường -> Tứ hướng.
+    \nNhất lộ: Xe nào vào giao lộ được quyền đi trước.
+    \nNhị ưu: Xe ưu tiên được quyền đi trước (Thứ tự ưu tiên : Quân sự, công an, cứu thương,… nhớ quy tắc : Phải, thẳng, trái).
+    \nTam đường: Xe trên đường ưu tiên được quyền đi trước.
+    \nTứ hướng: Rẽ phải được đi trước -> Đến đi thằng -> Rẽ trái.
+    \n\n2. Ngã 3, 4 trắng trơn không biển báo, đếm số xe chọn đáp án (3 xe đáp án số 3).
+    \n\n3. Nhìn vào hình vẽ thấy “Vòng xuyến to, Vòng xuyến nhỏ và Cảnh sát giao thông” chọn ngay đáp án 3.
+    \n\n4. Câu hỏi: “Theo hướng mũi tên, những hướng nào xe gắn máy đi được?”. Câu này cần chú ý từ “xe gắn máy”, ở đây nghĩa là cái xe đạp điện. Lưu ý có một câu hỏi về xe mô tô, để ý tránh nhầm 2 câu này.
+    \n\n5. Câu hỏi Theo tín hiệu đèn -> Đáp án có xe con;  Đi theo hướng mũi tên chọn đáp án không có xe con.
+    \n\n6. Câu hỏi “Những xe nào vi phạm quy tắc giao thông”->> Chọn đáp án có “Xe con(E)”.
+    \n\n7. Câu hỏi mà đáp án có từ “Xe của bạn” thì đếm số hướng (Ngã 3, ngã 4) sau đó trừ 1  là ra đáp án. Ví dụ 3 hướng thì đáp án là (2).
+    </string>
+
+    <string name="gioi_thieu">Hiện nay, trong việc thi bằng lái xe máy thì phần thi thực hành chấm điểm tự động bằng chip. Do máy tự động chấm điểm nên việc thi thực hành tỷ lệ trượt nhiều hơn so với trước. Qua quá trình tổ chức thi sát hạch của rất nhiều học viên đúc kết ra một số mẹo cần chuẩn bị trước để thi đảm bảo đỗ 100%.
+    \n\n1. Tập trước vòng số 8 ở nhà.
+    \nPhần thi thực hành trượt nhiều nhất là ở phần thi vòng số 8. Do đó, việc bạn biết đi xe máy thành thạo nhưng chưa tập qua vòng số 8 thì cũng rất dễ bị trượt. Bạn nên tập qua vòng số 8 càng nhiều lần càng tốt. Ít nhất là lúc đi xe vào vòng số 8 không còn cảm thấy loạng choạng.
+    \n\n2. Hôm thi lên sân thi thật sớm.
+    \nTại sao chúng tôi lại khuyên bạn như vậy? Bởi vì xe của bạn thì bạn quen với nó, bạn đi rất ngon lành. Nhưng xe của sân thi thì khác nhiều đấy, nếu bạn không đến sớm để làm quen với nó thì cũng rất dễ bị trượt. Hơn nữa, buổi thi thường sẽ có rất đông người. Nếu bạn đến sớm thì không phải chờ lâu mới được tập xe. Còn nếu đến muộn thì khả năng phải xếp hàng dài dài mới đến lượt mình.
+    \n\n3. Cách đi không để phải chạm vạch.
+    \nĐi xe vào từ mép ngoài bên trái, bởi vì như thế thì bánh xe mới không bị đè lên vạch. Nếu bạn đi vào từ mép ngoài bên phải thì nhìn bánh trước vào rất ngon lành, nhưng rất tiếc bánh sau sẽ bị đè lên vạch ngay. Tương tự lúc ra khỏi vòng số 8 cũng như vậy. Bạn phải cho xe ra từ mép ngoài bên trái, nếu không bánh sau của xe cũng sẽ đè lên vạch.
+    \n\nLưu ý: Lúc thi thực hành bạn nên để xe ở số 3 mà đi. Bởi vì số 4 thì có thể sẽ hơi yếu, còn đi ở số 1, số 2 thì sẽ bị giật mạnh. Phần thi đường gồ ghề bạn nên để số 3 mà đi và nên đi chậm chậm vừa phải nếu không muốn bay cả người và xe ra ngoài.
+    </string>
+
+    <string name="chay_vong_so_8">Phần 1: Chạy theo vòng số 8
+    \n\n- Khi nghe gọi tên vào thi thực hành bài thi sát hạch lái xe mô tô thí sinh nhận xe, đội mũ bảo hiểm, gạt chân chống xe và nổ máy đưa xe vào vị trí xuất phát.
+    \n\n- Trong phần thi số 1 thí sinh phải nhớ nguyên tắc vào 8 ra 3, phải chạy đủ vòng. Nên chạy với tốc độ vừa phải trong suốt lộ trình.
+    \n\n- Khi nghe hiệu lệnh của người chấm thi thì thí sinh bắt đầu thi phần thi số 1 của bài thi thực hành thi sát hạch lái xe mô tô.
+    \n\n- Gài số vào hình, xuất phát rẽ phải đi 1 vòng số 8 theo mũi tên đỏ, sau đó vòng ra cửa số 2 theo hướng mũi tên xanh.
+    \n\n► Lưu ý: Trong phần thi này thí sinh nên để số 2 đi luôn cho đầm máy. Khi chạy sa hình số 8, thí sinh nên hạ nhẹ ga xuống. Tuy nhiên, tốc độ không nên quá chậm, nếu chạy nhanh thí sinh có thể rà thắng từ từ để phần bánh trước của xe có thể bám vào vành ngoài của vòng số 8. Đây là phần thi khó nhất của bài thi thực hành thi sát hạch lái xe mô tô và người chấm thi cũng thường quan sát kỹ phần thi này nên các bạn cần lưu ý.
+    </string>
+
+    <string name="di_vao_duong_hep">Phần 2: Đi vào đường hẹp
+    \n\nTrong phần này đường đi khá hẹp nên các bạn thí sinh cần lưu ý chỉ nên đi với tốc độ vừa phải, và đi giữa đường để tránh bị chạm vạch.
+    </string>
+
+    <string name="chay_duong_quanh_co">Phần 3: Chạy đường quanh co
+    \n\nTrong phần 3 của bài thi thực hành thi sát hạch lái xe mô tô thí sinh nên nhảy ga đều đặn để xe chạy nhịp nhàng. Phần thi này đòi hỏi học viên cần có kỹ thuật đi vòng cua.
+    </string>
+
+    <string name="chay_duong_go_ghe">Phần 4: Chạy đường gồ ghề
+    \n\nĐây là phần thi thực hành cuối cùng. Các thí sinh phải giữ vững tay lái của mình tránh tình trạng mất lái, không nên đi với tốc độ quá chậm vì sẽ dễ ngã xe ảnh hưởng đến bài thi.
+    </string>
+
+</resources>
