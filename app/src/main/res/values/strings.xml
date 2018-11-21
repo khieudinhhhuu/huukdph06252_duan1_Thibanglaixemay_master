@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">Thi bằng lái xe máy</string>
+    <string name="app_name">Thi bằng lái A1</string>
     <string name="title_activity_menu">Menu</string>
     <string name="facebook_app_id">279706142750845</string>
     <string name="open">open</string>
     <string name="close">close</string>
 
     <string name="khai_niem_va_quy_tac">1. Có 3 cái luôn phải nhường: Nhường cho phương tiện đường sắt, nhường cho người đi bộ đang đi trên phần đường dành cho người đi bộ, nhường cho xe đi trên đường chính.
-\n\n2. Những câu có 2 đáp án mà trong câu hỏi có xuất hiện từ “Những”hoặc từ “Các” thì chọn cả 2 đáp án (cái này luôn luôn đúng, vì thế trong câu ưu tiên xét cái này trước, nhớ là chỉ đúng cho câu hỏi có 2 đáp án thôi nhé, câu nào 3 đáp án thì không còn đúng nữa).
+\n\n2. Những câu có 2 đáp án mà trong câu hỏi có xuất hiện từ “Những”hoặc từ “Các” thì chọn cả 2 đáp án (cái này luôn đúng, vì thế trong câu ưu tiên xét cái này trước, nhớ là chỉ đúng cho câu hỏi có 2 đáp án thôi nhé, câu nào 3 đáp án thì không còn đúng nữa).
 \n\n3. Câu hỏi có 3 đáp án gồm 2 đáp án dài + 1 đáp án ngắn. Thì đầu tiên đọc đề, sau đó đọc đáp án ngắn trước. Nếu đáp án ngắn sai thì bỏ đáp án ngắn chọn 2 đáp án dài còn lại.(không cần đọc 2 đáp án dài tốn thời gian).
 \n\n4. Những câu bắt đầu bằng từ khái niệm và kết thức được hiểu như thế nào là đúng mà trong dấu ngoặc kép” “có các từ: Vạch – phố- dải – phần –>> Chọn đáp án (1).
 \n\n5. Những câu bắt đầu bằng từ KHÁI NIỆM hoặc kết thúc ĐƯỢC HIỂU NHƯ THẾ NÀO LÀ ĐÚNG mà trong dấu ngoặc kép” “có các từ: Ưu – phương- làn –>> Chọn đáp án (2). (câu nào không có chữ KHÁI NIỆM hoặc chữ ĐƯỢC KIỂU NHƯ THẾ NÀO LÀ ĐÚNG thì không áp dụng nhé).
@@ -64,10 +64,10 @@
     \n\n1. Tập trước vòng số 8 ở nhà.
     \nPhần thi thực hành trượt nhiều nhất là ở phần thi vòng số 8. Do đó, việc bạn biết đi xe máy thành thạo nhưng chưa tập qua vòng số 8 thì cũng rất dễ bị trượt. Bạn nên tập qua vòng số 8 càng nhiều lần càng tốt. Ít nhất là lúc đi xe vào vòng số 8 không còn cảm thấy loạng choạng.
     \n\n2. Hôm thi lên sân thi thật sớm.
-    \nTại sao chúng tôi lại khuyên bạn như vậy? Bởi vì xe của bạn thì bạn quen với nó, bạn đi rất ngon lành. Nhưng xe của sân thi thì khác nhiều đấy, nếu bạn không đến sớm để làm quen với nó thì cũng rất dễ bị trượt. Hơn nữa, buổi thi thường sẽ có rất đông người. Nếu bạn đến sớm thì không phải chờ lâu mới được tập xe. Còn nếu đến muộn thì khả năng phải xếp hàng dài dài mới đến lượt mình.
+    \nTại sao chúng tôi lại khuyên bạn như vậy? Bởi vì xe của bạn thì bạn quen với nó, bạn đi rất ngon lành. Nhưng xe của sân thi thì khác nhiều đấy, nếu bạn không đến sớm để làm quen với nó thì cũng rất dễ bị trượt. Hơn nữa, buổi thi thường sẽ có rất đông người. Nếu bạn đến sớm thì không phải chờ lâu mới được tập xe. Còn nếu đến muộn thì khả năng phải xếp hàng dài mới đến lượt mình.
     \n\n3. Cách đi không để phải chạm vạch.
     \nĐi xe vào từ mép ngoài bên trái, bởi vì như thế thì bánh xe mới không bị đè lên vạch. Nếu bạn đi vào từ mép ngoài bên phải thì nhìn bánh trước vào rất ngon lành, nhưng rất tiếc bánh sau sẽ bị đè lên vạch ngay. Tương tự lúc ra khỏi vòng số 8 cũng như vậy. Bạn phải cho xe ra từ mép ngoài bên trái, nếu không bánh sau của xe cũng sẽ đè lên vạch.
-    \n\nLưu ý: Lúc thi thực hành bạn nên để xe ở số 3 mà đi. Bởi vì số 4 thì có thể sẽ hơi yếu, còn đi ở số 1, số 2 thì sẽ bị giật mạnh. Phần thi đường gồ ghề bạn nên để số 3 mà đi và nên đi chậm chậm vừa phải nếu không muốn bay cả người và xe ra ngoài.
+    \n\nLưu ý: Lúc thi thực hành bạn nên để xe ở số 3 mà đi. Bởi vì số 4 thì có thể sẽ hơi yếu, còn đi ở số 1, số 2 thì sẽ bị giật mạnh. Phần thi đường gồ ghề bạn nên để số 3 mà đi và nên đi chậm vừa phải nếu không muốn bay cả người và xe ra ngoài.
     </string>
 
     <string name="chay_vong_so_8">Phần 1: Chạy theo vòng số 8
@@ -75,7 +75,7 @@
     \n\n- Trong phần thi số 1 thí sinh phải nhớ nguyên tắc vào 8 ra 3, phải chạy đủ vòng. Nên chạy với tốc độ vừa phải trong suốt lộ trình.
     \n\n- Khi nghe hiệu lệnh của người chấm thi thì thí sinh bắt đầu thi phần thi số 1 của bài thi thực hành thi sát hạch lái xe mô tô.
     \n\n- Gài số vào hình, xuất phát rẽ phải đi 1 vòng số 8 theo mũi tên đỏ, sau đó vòng ra cửa số 2 theo hướng mũi tên xanh.
-    \n\n► Lưu ý: Trong phần thi này thí sinh nên để số 2 đi luôn cho đầm máy. Khi chạy sa hình số 8, thí sinh nên hạ nhẹ ga xuống. Tuy nhiên, tốc độ không nên quá chậm, nếu chạy nhanh thí sinh có thể rà thắng từ từ để phần bánh trước của xe có thể bám vào vành ngoài của vòng số 8. Đây là phần thi khó nhất của bài thi thực hành thi sát hạch lái xe mô tô và người chấm thi cũng thường quan sát kỹ phần thi này nên các bạn cần lưu ý.
+    \n\n► Lưu ý: Trong phần thi này thí sinh nên để số 2 đi luôn cho đầm máy. Khi chạy sa hình số 8, thí sinh nên hạ nhẹ ga xuống. Tuy nhiên, tốc độ không nên quá chậm, nếu chạy nhanh thí sinh có thể rà thắng từ để phần bánh trước của xe có thể bám vào vành ngoài của vòng số 8. Đây là phần thi khó nhất của bài thi thực hành thi sát hạch lái xe mô tô và người chấm thi cũng thường quan sát kỹ phần thi này nên các bạn cần lưu ý.
     </string>
 
     <string name="di_vao_duong_hep">Phần 2: Đi vào đường hẹp
