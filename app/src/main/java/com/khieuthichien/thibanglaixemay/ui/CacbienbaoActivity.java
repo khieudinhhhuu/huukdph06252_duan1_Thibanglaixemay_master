@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.khieuthichien.thibanglaixemay.R;
 import com.khieuthichien.thibanglaixemay.adapter.CacbienbaoAdapter2;
@@ -44,5 +45,6 @@ public class CacbienbaoActivity extends AppCompatActivity {
 
         tablayout.setupWithViewPager(viewpager);
 
+        Toast.makeText(this, "Yêu cầu mạng cho lần load ảnh đầu tiên về app", Toast.LENGTH_SHORT).show();
     }
 }

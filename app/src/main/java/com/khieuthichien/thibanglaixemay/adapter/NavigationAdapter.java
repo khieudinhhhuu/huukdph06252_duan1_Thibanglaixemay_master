@@ -12,13 +12,14 @@ import android.widget.TextView;
 import com.khieuthichien.thibanglaixemay.R;
 import com.khieuthichien.thibanglaixemay.model.Navigation;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class NavigationAdapter extends ArrayAdapter<Navigation>{
 
-    private List<Navigation> navigationArrayAdapter;
+    private ArrayList<Navigation> navigationArrayAdapter;
 
-    public NavigationAdapter(@NonNull Context context, int resource, @NonNull List<Navigation> objects) {
+    public NavigationAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Navigation> objects) {
         super(context, resource, objects);
         this.navigationArrayAdapter = objects;
     }

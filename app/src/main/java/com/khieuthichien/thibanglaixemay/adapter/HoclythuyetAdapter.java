@@ -49,18 +49,26 @@ public class HoclythuyetAdapter extends RecyclerView.Adapter<HoclythuyetAdapter.
             public void onClick(View v) {
                 if(holder.tvtieudehoclythuyet.getText().toString().equals("Khái niệm và quy tắc")){
                     Intent intent = new Intent(context, HLTkhainiemvaquytacActivity.class);
+                    intent.putExtra("begin","0");
+                    intent.putExtra("end","74");
                     context.startActivity(intent);
                 }
                 if(holder.tvtieudehoclythuyet.getText().toString().equals("Hệ thống biển báo đường bộ")){
                     Intent intent = new Intent(context, HLThethongbienbaoduongboActivity.class);
+                    intent.putExtra("begin","75");
+                    intent.putExtra("end","79");
                     context.startActivity(intent);
                 }
                 if(holder.tvtieudehoclythuyet.getText().toString().equals("Sa hình")){
                     Intent intent = new Intent(context, HLTsahinhActivity.class);
+                    intent.putExtra("begin","80");
+                    intent.putExtra("end","115");
                     context.startActivity(intent);
                 }
                 if(holder.tvtieudehoclythuyet.getText().toString().equals("Văn hóa và đạo đức lái xe")){
                     Intent intent = new Intent(context, HLTvanhoadaoduclaixeActivity.class);
+                    intent.putExtra("begin","116");
+                    intent.putExtra("end","149");
                     context.startActivity(intent);
                 }
             }
