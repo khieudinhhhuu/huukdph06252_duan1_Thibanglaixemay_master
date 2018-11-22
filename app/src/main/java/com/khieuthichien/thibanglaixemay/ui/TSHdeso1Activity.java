@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.CountDownTimer;
-import android.os.Handler;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,12 +14,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.khieuthichien.thibanglaixemay.R;
-import com.khieuthichien.thibanglaixemay.model.Question;
-import com.khieuthichien.thibanglaixemay.ui.GioithieuActivity;
-import com.khieuthichien.thibanglaixemay.ui.MenuActivity;
-import com.khieuthichien.thibanglaixemay.ui.ThisathachActivity;
-
-import java.util.ArrayList;
 
 public class TSHdeso1Activity extends AppCompatActivity {
 
