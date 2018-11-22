@@ -1,6 +1,7 @@
 package com.khieuthichien.thibanglaixemay.model;
 
 public class Answer {
+
     // Lưu trạng thái được chọn hay không ?
     private boolean bit;
     // Lưu nội dung
@@ -8,9 +9,9 @@ public class Answer {
     // Chon đặt màu nền không
     private boolean colorBackground;
 
-    public Answer(String _text,boolean _setColorBg){
-        this.text = _text;
-        this.colorBackground = _setColorBg;
+    public Answer(String text, boolean setColorBg){
+        this.text = text;
+        this.colorBackground = setColorBg;
     }
 
     public boolean isBit() {

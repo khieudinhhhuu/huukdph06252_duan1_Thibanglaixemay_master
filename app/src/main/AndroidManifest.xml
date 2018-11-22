@@ -54,20 +54,16 @@
             android:theme="@style/AppThemeNoActionBar" />
         <activity
             android:name=".ui.HLTkhainiemvaquytacActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppThemeNoActionBar" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.HLThethongbienbaoduongboActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppThemeNoActionBar" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.HLTsahinhActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppThemeNoActionBar" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ui.HLTvanhoadaoduclaixeActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppThemeNoActionBar" />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ui.TSHdeso1Activity"
             android:screenOrientation="portrait"

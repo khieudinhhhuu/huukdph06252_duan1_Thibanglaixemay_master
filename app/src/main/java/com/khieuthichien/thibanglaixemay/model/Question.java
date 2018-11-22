@@ -2,23 +2,19 @@ package com.khieuthichien.thibanglaixemay.model;
 
 import java.util.ArrayList;
 
-public class Cauhoi {
-
+public class Question {
     private String description; // Nội dung của câu hỏi
     private ArrayList<String> answer; // Các đáp án để lựa chọn
     private ArrayList<Integer> result; // Đáp án đúng
-    private String pathImage; // Đường dẫn ảnh nếu có
+    private String pathImage; // Đường dẫn ảnh nết có
     private ArrayList<Integer> userRsult;
 
-    public Cauhoi(String _description, ArrayList<String> _answer, ArrayList<Integer> _result, String _pathImage) {
+    public Question(String _description, ArrayList<String> _answer, ArrayList<Integer> _result, String _pathImage) {
         this.description = _description;
         this.answer = _answer;
         this.result = _result;
         this.pathImage = _pathImage;
         this.userRsult = new ArrayList<>();
-    }
-
-    public Cauhoi() {
     }
 
     public String getDescription() {
@@ -60,5 +56,4 @@ public class Cauhoi {
     public void setUserRsult(ArrayList<Integer> userRsult) {
         this.userRsult = userRsult;
     }
-
 }

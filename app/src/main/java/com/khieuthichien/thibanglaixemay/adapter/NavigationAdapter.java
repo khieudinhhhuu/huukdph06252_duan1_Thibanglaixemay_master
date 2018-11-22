@@ -1,8 +1,6 @@
 package com.khieuthichien.thibanglaixemay.adapter;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,30 +10,28 @@ import android.widget.TextView;
 import com.khieuthichien.thibanglaixemay.R;
 import com.khieuthichien.thibanglaixemay.model.Navigation;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class NavigationAdapter extends ArrayAdapter<Navigation>{
 
-    private ArrayList<Navigation> navigationArrayAdapter;
+public class NavigationAdapter extends ArrayAdapter<Navigation> {
 
-    public NavigationAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Navigation> objects) {
+    private List<Navigation> navigationList;
+
+    public NavigationAdapter(Context context, int resource, List<Navigation> objects) {
         super(context, resource, objects);
-        this.navigationArrayAdapter = objects;
+        this.navigationList = objects;
     }
 
-    @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        LayoutInflater inflater = LayoutInflater.from(getContext());
-        View view = inflater.inflate(R.layout.item_navigation, parent, false);
+    public View getView(int position, View convertView, ViewGroup parent) {
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.item_listview_navigation,parent,false);
 
         TextView tvnavigation = view.findViewById(R.id.tvnavigation);
+        tvnavigation.setText(navigationList.get(position).getTitle());
 
-        tvnavigation.setText(navigationArrayAdapter.get(position).getTitle());
-        if (navigationArrayAdapter.get(position).isColor())
-            view.setBackgroundResource(R.color.colorPrimary6);
-
+        if (navigationList.get(position).isColor()) {
+            view.setBackgroundResource(R.color.colorPrimary1);
+        }
         return view;
     }
 }

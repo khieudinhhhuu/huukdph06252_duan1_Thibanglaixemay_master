@@ -12,21 +12,16 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class MyResource {
+public class myResource {
 
     private StringBuilder builder;
     private InputStream is;
 
-    public MyResource(StringBuilder builder, InputStream is) {
-        this.builder = builder;
-        this.is = is;
-    }
-
     // Hàm khởi tạo
-    public MyResource() {
+    public myResource(){
     }
 
-    public StringBuilder getBuilder() {
+    private StringBuilder getBuilder() {
         return builder;
     }
 
@@ -42,7 +37,7 @@ public class MyResource {
         this.is = is;
     }
 
-    public MyResource(Resources getResouce, int res){
+    public myResource(Resources getResouce, int res){
         try {
             InputStream IS = getResouce.openRawResource(res);
             setIs(IS);
@@ -68,13 +63,13 @@ public class MyResource {
     }
 
     // Chuyển đổi text thành đối tượng JSON Array
-    public JSONArray ArrayJSON() throws Exception{
+    public JSONArray ArrayJSON() throws Exception {
         return new JSONArray(toString());
     }
 
     // Lấy câu hỏi theo index
-    public Cauhoi getIndex(int index) throws Exception{
-        Cauhoi cauhoi = null;
+    public Question getIndex(int index) throws Exception {
+        Question question = null;
 
         if (getBuilder() == null){
             readResouce();
@@ -93,13 +88,13 @@ public class MyResource {
             rlt.add(tempArr.getInt(i));
         }
         String path = object.getString("pathImage");
-        cauhoi = new Cauhoi(des,ans,rlt,path);
-        return cauhoi;
+        question = new Question(des,ans,rlt,path);
+        return question;
     }
 
     // Lấy câu hỏi theo vị trí từ bao nhiêu cho tới bao nhiêu
-    public ArrayList<Cauhoi> getIndex(int begin, int end) throws Exception{
-        ArrayList<Cauhoi> arrayList=null;
+    public ArrayList<Question> getIndex(int begin, int end) throws Exception {
+        ArrayList<Question> arrayList=null;
         for (int i=begin;i<=end;i++){
             arrayList.add(getIndex(i));
         }
@@ -118,6 +113,5 @@ public class MyResource {
             return null;
         }
     }
-
 
 }

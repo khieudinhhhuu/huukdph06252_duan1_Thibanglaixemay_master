@@ -9,11 +9,6 @@ public class Navigation {
         this.title = title;
     }
 
-    public Navigation(String title, boolean color) {
-        this.title = title;
-        this.color = color;
-    }
-
     public String getTitle() {
         return title;
     }
@@ -29,5 +24,5 @@ public class Navigation {
     public void setColor(boolean color) {
         this.color = color;
     }
-
 }
+
