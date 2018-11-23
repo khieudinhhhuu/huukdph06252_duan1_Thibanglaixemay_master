@@ -111,7 +111,7 @@
         android:text="Hiện nay, nhằm đáp ứng nhu cầu học và thi bằng lái xe máy được thuận tiện hơn, rất nhiều các ứng dụng thi bằng lái xe máy A1 trên điện thoại nhằm phục vụ nhu cầu trên của mọi người đã, đang và được ra đời. Nhưng trong nhiều ứng dụng đó, người dùng đang băn khoăn đâu là ứng dụng tốt nhất, tiện lợi nhất để có thể sử dụng tiện cho việc ôn luyện.
 Giao diện của ứng dụng gồm 6 mục chính, bạn vào từng mục để tìm hiểu đúng với nhu cầu của bạn. Đây là ứng dụng rất thuận tiện cho việc học lý thuyết bằng lái xe máy A1 trên điện thoại.
 Phần mềm này gồm tất cả 150 câu hỏi ôn tập được chia làm 8 đề, mỗi đề gồm 20 câu làm trong vòng 15 phút. Đạt 16/20 câu trở lên là qua được phần lý thuyết.
-Với sự hướng dẫn của thầy Huynh và các bạn trong lớp."
+Với sự trợ giúp của thầy Huynh và bạn cùng lớp Nguyễn Khả Hoàng Việt."
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="italic" />

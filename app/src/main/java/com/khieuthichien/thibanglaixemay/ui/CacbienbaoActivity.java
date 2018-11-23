@@ -45,6 +45,7 @@ public class CacbienbaoActivity extends AppCompatActivity {
 
         tablayout.setupWithViewPager(viewpager);
 
-        Toast.makeText(this, "Yêu cầu mạng cho lần load ảnh đầu tiên về app", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Yêu cầu mạng cho lần load ảnh đầu tiên về app", Toast.LENGTH_LONG).show();
+
     }
 }

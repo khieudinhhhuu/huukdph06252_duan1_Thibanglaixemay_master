@@ -171,7 +171,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_marginTop="30dp"
-        android:text="App cần mạng để trải nghiệm tốt nhất"
+        android:text="Lưu ý: App cần mạng để trải nghiệm tốt nhất"
         android:textStyle="italic"
         android:layout_marginLeft="20dp"
         android:textColor="#000000"
