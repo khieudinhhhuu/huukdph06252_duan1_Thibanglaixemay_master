@@ -9,6 +9,7 @@ import android.widget.ImageView;
 
 import com.facebook.share.model.ShareHashtag;
 import com.facebook.share.model.ShareLinkContent;
+import com.khieuthichien.thibanglaixemay.QuytacthiActivity;
 import com.khieuthichien.thibanglaixemay.R;
 
 import java.io.FileNotFoundException;
@@ -38,7 +39,7 @@ public class MenuActivity extends AppCompatActivity {
         imgthisathach.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuActivity.this, ThisathachActivity.class));
+                startActivity(new Intent(MenuActivity.this, QuytacthiActivity.class));
             }
         });
 

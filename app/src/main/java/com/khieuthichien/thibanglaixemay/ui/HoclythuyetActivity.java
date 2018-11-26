@@ -45,9 +45,9 @@ public class HoclythuyetActivity extends AppCompatActivity {
         hoclythuyetList = new ArrayList<>();
 
         hoclythuyetList.add(new Hoclythuyet(R.drawable.khainiem, "Khái niệm và quy tắc", "(75 câu)"));
+        hoclythuyetList.add(new Hoclythuyet(R.drawable.vanhoa, "Văn hóa và đạo đức lái xe", "(5 câu)"));
         hoclythuyetList.add(new Hoclythuyet(R.drawable.duongbo, "Hệ thống biển báo đường bộ", "(36 câu)"));
         hoclythuyetList.add(new Hoclythuyet(R.drawable.sahinh, "Sa hình", "(34 câu)"));
-        hoclythuyetList.add(new Hoclythuyet(R.drawable.vanhoa, "Văn hóa và đạo đức lái xe", "(5 câu)"));
 
         adapter = new HoclythuyetAdapter(this, hoclythuyetList);
         recyclerview.setAdapter(adapter);

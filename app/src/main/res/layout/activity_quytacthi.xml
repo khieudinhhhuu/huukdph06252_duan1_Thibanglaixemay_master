@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuytacthiActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="Quy tắc thi"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/contest_welcome_txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Bộ đề thi gồm 20 câu, Trong đó có:"/>
+
+        <TextView
+            android:id="@+id/contest_welcome_txtLine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/contest_welcome_txtTitle"
+            android:text="- 9 câu về khái niệm và quy tắc giao thông."/>
+
+        <TextView
+            android:id="@+id/contest_welcome_txtLine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contest_welcome_txtLine1"
+            android:text="- 1 câu về văn hóa và đạo đức người lái xe."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/contest_welcome_txtLine3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contest_welcome_txtLine2"
+            android:text="- 5 câu về hệ thống biển báo."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/contest_welcome_txtLine4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contest_welcome_txtLine3"
+            android:text="- 5 câu về giải các sa hình."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/contest_welcome_txtLine5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contest_welcome_txtLine4"
+            android:layout_marginTop="20dp"
+            android:text="Bạn cần trả lời đúng 18 câu trong vòng 15 phút để vượt qua bài thi."
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/contest_welcome_btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="BẮT ĐẦU LÀM BÀI"
+            android:textSize="20dp"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+</LinearLayout>
