@@ -9,8 +9,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.github.lzyzsd.circleprogress.ArcProgress;
-import com.khieuthichien.thibanglaixemay.QuytacthiActivity;
 import com.khieuthichien.thibanglaixemay.R;
 import com.khieuthichien.thibanglaixemay.adapter.ThisathachAdapter;
 import com.khieuthichien.thibanglaixemay.model.Thisathach;
@@ -47,14 +45,14 @@ public class ThisathachActivity extends AppCompatActivity {
             }
         });
 
-        thisathachList.add(new Thisathach("Đề 1", R.drawable.ic_keyboard_arrow_right_black_24dp));
-        thisathachList.add(new Thisathach("Đề 2", R.drawable.ic_keyboard_arrow_right_black_24dp));
-        thisathachList.add(new Thisathach("Đề 3", R.drawable.ic_keyboard_arrow_right_black_24dp));
-        thisathachList.add(new Thisathach("Đề 4", R.drawable.ic_keyboard_arrow_right_black_24dp));
-        thisathachList.add(new Thisathach("Đề 5", R.drawable.ic_keyboard_arrow_right_black_24dp));
-        thisathachList.add(new Thisathach("Đề 6", R.drawable.ic_keyboard_arrow_right_black_24dp));
-        thisathachList.add(new Thisathach("Đề 7", R.drawable.ic_keyboard_arrow_right_black_24dp));
-        thisathachList.add(new Thisathach("Đề 8", R.drawable.ic_keyboard_arrow_right_black_24dp));
+        thisathachList.add(new Thisathach("Đề số 1", R.drawable.ic_keyboard_arrow_right_black_24dp));
+        thisathachList.add(new Thisathach("Đề số 2", R.drawable.ic_keyboard_arrow_right_black_24dp));
+        thisathachList.add(new Thisathach("Đề số 3", R.drawable.ic_keyboard_arrow_right_black_24dp));
+        thisathachList.add(new Thisathach("Đề số 4", R.drawable.ic_keyboard_arrow_right_black_24dp));
+        thisathachList.add(new Thisathach("Đề số 5", R.drawable.ic_keyboard_arrow_right_black_24dp));
+        thisathachList.add(new Thisathach("Đề số 6", R.drawable.ic_keyboard_arrow_right_black_24dp));
+        thisathachList.add(new Thisathach("Đề số 7", R.drawable.ic_keyboard_arrow_right_black_24dp));
+        thisathachList.add(new Thisathach("Đề số 8", R.drawable.ic_keyboard_arrow_right_black_24dp));
 
         adapter = new ThisathachAdapter(thisathachList, this);
         recycler.setAdapter(adapter);

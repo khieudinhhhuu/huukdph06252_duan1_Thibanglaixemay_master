@@ -9,7 +9,6 @@ import android.widget.ImageView;
 
 import com.facebook.share.model.ShareHashtag;
 import com.facebook.share.model.ShareLinkContent;
-import com.khieuthichien.thibanglaixemay.QuytacthiActivity;
 import com.khieuthichien.thibanglaixemay.R;
 
 import java.io.FileNotFoundException;

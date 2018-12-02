@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="#ff0011"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Câu 1" />
+
+                <TextView
+                    android:id="@+id/tvQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="#1502c7"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Câu hỏi thứ nhất " />
+                
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img_1"
+                android:visibility="visible" />
+
+            <RadioGroup
+                android:id="@+id/radGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:text="Trả lời 1" />
+
+                <RadioButton
+                    android:id="@+id/radB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:text="Trả lời 2" />
+
+                <RadioButton
+                    android:id="@+id/radC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:text="Trả lời 3" />
+
+                <RadioButton
+                    android:id="@+id/radD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:text="Trả lời 4" />
+                
+            </RadioGroup>
+
+            <!--<CheckBox-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="cb1"-->
+                <!--android:textColor="#ff0000"-->
+                <!--android:id="@+id/cb1"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<CheckBox-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="cb2"-->
+                <!--android:textColor="#ff0000"-->
+                <!--android:id="@+id/cb2"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<CheckBox-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="cb3"-->
+                <!--android:textColor="#ff0000"-->
+                <!--android:id="@+id/cb3"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<CheckBox-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:text="cb4"-->
+                <!--android:textColor="#ff0000"-->
+                <!--android:id="@+id/cb4"-->
+                <!--android:layout_height="wrap_content" />-->
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+</LinearLayout>

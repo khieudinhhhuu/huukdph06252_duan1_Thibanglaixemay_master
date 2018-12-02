@@ -68,8 +68,8 @@ public class myResource {
     }
 
     // Lấy câu hỏi theo index
-    public Question getIndex(int index) throws Exception {
-        Question question = null;
+    public QuestionHLT getIndex(int index) throws Exception {
+        QuestionHLT questionHLT = null;
 
         if (getBuilder() == null){
             readResouce();
@@ -88,13 +88,13 @@ public class myResource {
             rlt.add(tempArr.getInt(i));
         }
         String path = object.getString("pathImage");
-        question = new Question(des,ans,rlt,path);
-        return question;
+        questionHLT = new QuestionHLT(des,ans,rlt,path);
+        return questionHLT;
     }
 
     // Lấy câu hỏi theo vị trí từ bao nhiêu cho tới bao nhiêu
-    public ArrayList<Question> getIndex(int begin, int end) throws Exception {
-        ArrayList<Question> arrayList=null;
+    public ArrayList<QuestionHLT> getIndex(int begin, int end) throws Exception {
+        ArrayList<QuestionHLT> arrayList=null;
         for (int i=begin;i<=end;i++){
             arrayList.add(getIndex(i));
         }

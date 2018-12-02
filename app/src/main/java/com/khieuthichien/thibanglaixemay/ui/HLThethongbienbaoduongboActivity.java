@@ -1,12 +1,10 @@
 package com.khieuthichien.thibanglaixemay.ui;
 
-import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -21,7 +19,7 @@ import android.widget.Toast;
 import com.khieuthichien.thibanglaixemay.R;
 import com.khieuthichien.thibanglaixemay.adapter.AnswerAdapter;
 import com.khieuthichien.thibanglaixemay.model.Answer;
-import com.khieuthichien.thibanglaixemay.model.Question;
+import com.khieuthichien.thibanglaixemay.model.QuestionHLT;
 import com.khieuthichien.thibanglaixemay.model.myResource;
 
 import java.util.ArrayList;
@@ -32,7 +30,7 @@ public class HLThethongbienbaoduongboActivity extends AppCompatActivity implemen
     private ActionBarDrawerToggle mToggle;
     private com.khieuthichien.thibanglaixemay.model.myResource myResource;
 
-    private Question question;
+    private QuestionHLT questionHLT;
 
     private int rowIndexSelected;
     private AdapterView adapterView;
@@ -97,7 +95,7 @@ public class HLThethongbienbaoduongboActivity extends AppCompatActivity implemen
                 break;
             case R.id.hlt_btnCheckdapan:
                 View view;
-                for(int i:getQuestion().getResult()){
+                for(int i: getQuestionHLT().getResult()){
                     view = hlt_lvcacdapanluachon.getChildAt(i);
                     view.setBackgroundResource(R.color.colorPrimary3);
                 }
@@ -145,10 +143,10 @@ public class HLThethongbienbaoduongboActivity extends AppCompatActivity implemen
     // Tạo custom listview các đáp án
     private void createListViewAnswer(int index) throws Exception {
         ArrayList<Answer> array = new ArrayList<>();
-        Question question = getMyResource().getIndex(index);
-        setQuestion(question);
+        QuestionHLT questionHLT = getMyResource().getIndex(index);
+        setQuestionHLT(questionHLT);
 
-        for(String answer : question.getAnswer()){
+        for(String answer : questionHLT.getAnswer()){
             array.add(new Answer(answer,false));
         }
 
@@ -167,7 +165,7 @@ public class HLThethongbienbaoduongboActivity extends AppCompatActivity implemen
         });
         setRowIndexSelected(index);
         // update layout
-        updateLayout(index, question.getDescription());
+        updateLayout(index, questionHLT.getDescription());
     }
 
     // Cập nhật câu hỏi và title trên Actionbar
@@ -225,12 +223,12 @@ public class HLThethongbienbaoduongboActivity extends AppCompatActivity implemen
         this.hlt_tvcauhoi.setText(hlt_tvcauhoi);
     }
 
-    public Question getQuestion() {
-        return question;
+    public QuestionHLT getQuestionHLT() {
+        return questionHLT;
     }
 
-    public void setQuestion(Question question) {
-        this.question = question;
+    public void setQuestionHLT(QuestionHLT questionHLT) {
+        this.questionHLT = questionHLT;
     }
 
     public int getRowIndexSelected() {

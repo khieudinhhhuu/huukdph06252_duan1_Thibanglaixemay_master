@@ -2,14 +2,14 @@ package com.khieuthichien.thibanglaixemay.model;
 
 import java.util.ArrayList;
 
-public class Question {
+public class QuestionHLT {
     private String description; // Nội dung của câu hỏi
     private ArrayList<String> answer; // Các đáp án để lựa chọn
     private ArrayList<Integer> result; // Đáp án đúng
     private String pathImage; // Đường dẫn ảnh nết có
     private ArrayList<Integer> userRsult;
 
-    public Question(String _description, ArrayList<String> _answer, ArrayList<Integer> _result, String _pathImage) {
+    public QuestionHLT(String _description, ArrayList<String> _answer, ArrayList<Integer> _result, String _pathImage) {
         this.description = _description;
         this.answer = _answer;
         this.result = _result;

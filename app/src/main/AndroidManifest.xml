@@ -68,7 +68,13 @@
             android:name=".ui.TSHdeso1Activity"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoActionBar" />
-        <activity android:name=".QuytacthiActivity"
+        <activity android:name=".ui.QuytacthiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".ui.TSHdethiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".ui.KetquaActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoActionBar"/>
     </application>
