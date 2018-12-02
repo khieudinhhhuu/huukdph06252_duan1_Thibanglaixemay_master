@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         DatabaseHelper db = new DatabaseHelper(this);
-        db.deleteDataBase();
-        Toast.makeText(this, "Xóa thành công", Toast.LENGTH_SHORT).show();
+//        db.deleteDataBase();
+//        Toast.makeText(this, "Xóa thành công", Toast.LENGTH_SHORT).show();
         try {
             db.createDataBase();
             Toast.makeText(this, "Cap nhat thanh cong", Toast.LENGTH_SHORT).show();

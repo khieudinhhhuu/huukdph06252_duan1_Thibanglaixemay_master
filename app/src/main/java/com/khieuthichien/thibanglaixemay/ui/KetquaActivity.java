@@ -36,7 +36,7 @@ public class KetquaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ketqua);
 
-        begin();
+        initViews();
 
         Intent intent = getIntent();
         questionTSHArrayList = (ArrayList<QuestionTSH>) intent.getExtras().getSerializable("arr_Ques");
@@ -82,7 +82,7 @@ public class KetquaActivity extends AppCompatActivity {
 
     }
 
-    private void begin() {
+    private void initViews() {
         tvCaudung = findViewById(R.id.tvCaudung);
         tvCausai = findViewById(R.id.tvCausai);
         tvCauchuatraloi = findViewById(R.id.tvCauchuatraloi);

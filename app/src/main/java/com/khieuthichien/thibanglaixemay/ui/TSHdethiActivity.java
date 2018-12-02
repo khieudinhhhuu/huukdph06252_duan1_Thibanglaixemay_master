@@ -62,23 +62,6 @@ public class TSHdethiActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tshdethi);
 
-        DatabaseHelper db = new DatabaseHelper(this);
-
-//        try {
-//            db.deleteDataBase();
-//            Toast.makeText(this, "Xóa thành công", Toast.LENGTH_SHORT).show();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            Toast.makeText(this, "bi loi rui", Toast.LENGTH_SHORT).show();
-//        }
-//
-//        try {
-//            db.createDataBase();
-//            Toast.makeText(this, "Copy thành công", Toast.LENGTH_SHORT).show();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-
         mPager = findViewById(R.id.pager);
 
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
@@ -94,7 +77,6 @@ public class TSHdethiActivity extends FragmentActivity {
         arr_Ques = new ArrayList<QuestionTSH>();
 
         arr_Ques = thisathachDAO.getQuestion(num_exam, subject);
-
 
         timer = new CounterClass(15 * 60 * 1000, 1000);
 

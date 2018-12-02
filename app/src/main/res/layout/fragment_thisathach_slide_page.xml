@@ -39,7 +39,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:textColor="#1502c7"
+                    android:textColor="@color/colorPrimary"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
                     android:text="Câu hỏi thứ nhất " />

@@ -27,6 +27,7 @@
             android:layout_marginLeft="25dp"
             android:gravity="center"
             android:text="Quy tắc thi"
+            android:textStyle="bold"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -46,7 +47,7 @@
             android:gravity="center"
             android:textColor="#ff0000"
             android:textStyle="bold"
-            android:textSize="16dp"
+            android:textSize="20sp"
             android:text="Bộ đề thi gồm 20 câu, Trong đó có:"/>
 
         <TextView
@@ -88,8 +89,17 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/contest_welcome_txtLine4"
             android:layout_marginTop="20dp"
-            android:text="Bạn cần trả lời đúng 18 câu trong vòng 15 phút để vượt qua bài thi."
+            android:text="Bạn cần trả lời đúng 16/20 câu trong vòng 15 phút để vượt qua bài thi."
             android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contest_welcome_txtLine5"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:text="Lưu ý: null = rỗng. Câu hỏi nào có đáp án null, có nghĩa đáp án đó không có giá trị và không có đáp án đó."
+            android:textColor="#ff0000" />
 
         <Button
             android:id="@+id/contest_welcome_btnStart"
