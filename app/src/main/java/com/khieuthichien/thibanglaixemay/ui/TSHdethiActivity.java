@@ -19,6 +19,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -56,6 +57,8 @@ public class TSHdethiActivity extends FragmentActivity {
     private TextView tvTimer;
     private TextView tvXemDiem;
     private TextView tvback;
+    private ImageButton tsh_btnBack;
+    private ImageButton tsh_btnNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +87,31 @@ public class TSHdethiActivity extends FragmentActivity {
         tvTimer = findViewById(R.id.tvTimer);
         tvXemDiem = findViewById(R.id.tvScore);
         tvback = findViewById(R.id.tvback);
+        tsh_btnBack = findViewById(R.id.tsh_btnBack);
+        tsh_btnNext = findViewById(R.id.tsh_btnNext);
+
+        tsh_btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    mPager.setCurrentItem(mPager.getCurrentItem()-1);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            }
+        });
+
+        tsh_btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    mPager.setCurrentItem(mPager.getCurrentItem()+1);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
         tvback.setOnClickListener(new View.OnClickListener() {
             @Override
