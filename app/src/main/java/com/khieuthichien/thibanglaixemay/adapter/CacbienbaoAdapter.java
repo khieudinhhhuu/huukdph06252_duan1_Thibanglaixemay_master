@@ -37,9 +37,11 @@ public class CacbienbaoAdapter extends RecyclerView.Adapter<CacbienbaoAdapter.Ca
     public void onBindViewHolder(@NonNull CacbienbaoHolder holder, int position) {
         final Cacbienbao cacbienbao = cacbienbaoList.get(position);
         holder.imganhcacbienbao.setImageResource(R.drawable.cacbienbao);
+
         Glide.with(context)
                 .load(cacbienbao.getAnhcacbienbao())
                 .into(holder.imganhcacbienbao);
+
         holder.tvtieudecacbienbao.setText(cacbienbao.getTieudecacbienbao());
         holder.tvgiaithichcacbienbao.setText(cacbienbao.getGiaithichcacbienbao());
     }

@@ -55,7 +55,7 @@ public class TSHdethiActivity extends FragmentActivity {
     private TextView tvKiemTra;
     private TextView tvTimer;
     private TextView tvXemDiem;
-    private ImageView imgback;
+    private TextView tvback;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,9 +83,9 @@ public class TSHdethiActivity extends FragmentActivity {
         tvKiemTra = findViewById(R.id.tvKiemTra);
         tvTimer = findViewById(R.id.tvTimer);
         tvXemDiem = findViewById(R.id.tvScore);
-        imgback = findViewById(R.id.imgback);
+        tvback = findViewById(R.id.tvback);
 
-        imgback.setOnClickListener(new View.OnClickListener() {
+        tvback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 dialogExit();

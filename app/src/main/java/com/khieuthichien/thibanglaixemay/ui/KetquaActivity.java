@@ -45,7 +45,7 @@ public class KetquaActivity extends AppCompatActivity {
         tvCauchuatraloi.setText(""+numNoAns);
         tvCausai.setText(""+numFalse);
         tvCaudung.setText(""+numTrue);
-        tvTongdiem.setText(""+numTrue*1+"/20");
+        tvTongdiem.setText(""+numTrue*1+"/19");
 
         if( numTrue*1 >= 16){
             tvKetquacuoicung.setText("Đạt");

@@ -27,6 +27,7 @@
                 android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?"
                 android:textColor="@color/colorPrimary3"
                 android:textSize="20sp"
+                android:layout_marginLeft="3dp"
                 android:textStyle="bold" />
 
             <ImageView

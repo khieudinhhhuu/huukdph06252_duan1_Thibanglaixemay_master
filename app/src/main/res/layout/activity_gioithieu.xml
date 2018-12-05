@@ -39,8 +39,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="120dp"
-            android:layout_height="170dp"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
             android:layout_marginTop="8dp"
             android:src="@drawable/tui" />
 
@@ -55,6 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Sinh viên: Khiếu Đình Hữu"
+                android:paddingTop="3dp"
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
@@ -86,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Khóa ngày 11/07/2018"
+                android:text="Khóa ngày 03/11/2018"
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
@@ -95,6 +96,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Project: Thi bằng xe máy A1"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Fb - Zalo: 0368339456"
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
@@ -111,8 +120,8 @@
 
         android:text="Hiện nay, nhằm đáp ứng nhu cầu học và thi bằng lái xe máy được thuận tiện hơn, rất nhiều các ứng dụng thi bằng lái xe máy A1 trên điện thoại nhằm phục vụ nhu cầu trên của mọi người đã, đang và được ra đời. Nhưng trong nhiều ứng dụng đó, người dùng đang băn khoăn đâu là ứng dụng tốt nhất, tiện lợi nhất để có thể sử dụng tiện cho việc ôn luyện.
 Giao diện của ứng dụng gồm 6 mục chính, bạn vào từng mục để tìm hiểu đúng với nhu cầu của bạn. Đây là ứng dụng rất thuận tiện cho việc học lý thuyết bằng lái xe máy A1 trên điện thoại.
-Phần mềm này gồm tất cả 150 câu hỏi ôn tập được chia làm 8 đề, mỗi đề gồm 20 câu làm trong vòng 15 phút. Đạt 16/20 câu trở lên là qua được phần lý thuyết.
-\nVới sự trợ giúp của thầy Huynh và bạn cùng lớp Nguyễn Khả Hoàng Việt."
+Phần mềm này gồm tất cả 150 câu hỏi ôn tập được chia làm 8 đề, mỗi đề gồm 19 câu làm trong vòng 15 phút. Đạt 16/19 câu trở lên là qua được phần lý thuyết.
+\nVới sự giúp đỡ của gv Nguyễn Hữu Huy và bạn cùng lớp Nguyễn Khả Hoàng Việt."
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="italic" />

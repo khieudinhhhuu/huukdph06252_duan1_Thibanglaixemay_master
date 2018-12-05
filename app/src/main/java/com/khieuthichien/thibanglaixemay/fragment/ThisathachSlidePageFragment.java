@@ -13,6 +13,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.khieuthichien.thibanglaixemay.R;
 import com.khieuthichien.thibanglaixemay.model.QuestionTSH;
 import com.khieuthichien.thibanglaixemay.ui.TSHdethiActivity;
@@ -33,18 +34,10 @@ public class ThisathachSlidePageFragment extends Fragment {
     RadioButton radA, radB, radC, radD;
     ImageView imgIcon;
 
-//    public ThisathachSlidePageFragment() {
-//        // Required empty public constructor
-//    }
-
 //    private CheckBox cb1;
 //    private CheckBox cb2;
 //    private CheckBox cb3;
 //    private CheckBox cb4;
-
-
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -97,7 +90,7 @@ public class ThisathachSlidePageFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        tvNum.setText("Câu " + (mPageNumber + 1)+"/20");
+        tvNum.setText("Câu " + (mPageNumber + 1) + "/19");
         tvQuestion.setText(arr_Ques.get(mPageNumber).getQuestion2());
 
         radA.setText(arr_Ques.get(mPageNumber).getAnswer_a());
@@ -105,9 +98,12 @@ public class ThisathachSlidePageFragment extends Fragment {
         radC.setText(arr_Ques.get(mPageNumber).getAnswer_c());
         radD.setText(arr_Ques.get(mPageNumber).getAnswer_d());
 
-        imgIcon.setImageResource(R.drawable.img_1);
+        //imgIcon.setImageResource(R.drawable.img_1);
+        Glide.with(getActivity())
+                .load(arr_Ques.get(mPageNumber).getImage())
+                .into(imgIcon);
 
-        if (checkAns != 0){
+        if (checkAns != 0) {
             radA.setClickable(false);
             radB.setClickable(false);
             radC.setClickable(false);
@@ -125,7 +121,7 @@ public class ThisathachSlidePageFragment extends Fragment {
 
     }
 
-    public QuestionTSH getItem(int position){
+    public QuestionTSH getItem(int position) {
         return arr_Ques.get(position);
     }
 
@@ -139,23 +135,60 @@ public class ThisathachSlidePageFragment extends Fragment {
             return "C";
         } else if (ID == R.id.radD) {
             return "D";
+        } else if (ID == R.id.radA && ID == R.id.radB) {
+            return "AB";
+        } else if (ID == R.id.radA && ID == R.id.radC) {
+            return "AC";
+        } else if (ID == R.id.radA && ID == R.id.radD) {
+            return "AD";
+        } else if (ID == R.id.radC && ID == R.id.radB) {
+            return "BC";
+        } else if (ID == R.id.radD && ID == R.id.radB) {
+            return "BD";
+        } else if (ID == R.id.radC && ID == R.id.radD) {
+            return "CD";
         } else return "";
     }
 
     //Hàm kiểm tra câu đúng, nếu câu đúng thì đổi màu background radiobutton tương ứng
-    private void getCheckAns(String ans){
-        if ( ans.equals("A") == true){
+    private void getCheckAns(String ans) {
+        if (ans.equals("A") == true) {
             radA.setBackgroundColor(Color.YELLOW);
-        }else if ( ans.equals("B") == true){
+        } else if (ans.equals("B") == true) {
             radB.setBackgroundColor(Color.YELLOW);
-        }else if ( ans.equals("C") == true){
+        } else if (ans.equals("C") == true) {
             radC.setBackgroundColor(Color.YELLOW);
-        }else if ( ans.equals("D") == true){
+        } else if (ans.equals("D") == true) {
             radD.setBackgroundColor(Color.YELLOW);
-        }else ;
+        } else if (ans.equals("AB") == true) {
+            radA.setBackgroundColor(Color.YELLOW);
+            radB.setBackgroundColor(Color.YELLOW);
+        } else if (ans.equals("AC") == true) {
+            radA.setBackgroundColor(Color.YELLOW);
+            radC.setBackgroundColor(Color.YELLOW);
+        } else if (ans.equals("AD") == true) {
+            radA.setBackgroundColor(Color.YELLOW);
+            radD.setBackgroundColor(Color.YELLOW);
+        } else if (ans.equals("BC") == true) {
+            radB.setBackgroundColor(Color.YELLOW);
+            radC.setBackgroundColor(Color.YELLOW);
+        } else if (ans.equals("BA") == true) {
+            radA.setBackgroundColor(Color.YELLOW);
+            radB.setBackgroundColor(Color.YELLOW);
+        } else if (ans.equals("BD") == true) {
+            radD.setBackgroundColor(Color.YELLOW);
+            radB.setBackgroundColor(Color.YELLOW);
+        } else if (ans.equals("CA") == true) {
+            radA.setBackgroundColor(Color.YELLOW);
+            radC.setBackgroundColor(Color.YELLOW);
+        } else if (ans.equals("CB") == true) {
+            radC.setBackgroundColor(Color.YELLOW);
+            radB.setBackgroundColor(Color.YELLOW);
+        } else if (ans.equals("CD") == true) {
+            radC.setBackgroundColor(Color.YELLOW);
+            radD.setBackgroundColor(Color.YELLOW);
+        } else ;
     }
-
-
 
 
 }

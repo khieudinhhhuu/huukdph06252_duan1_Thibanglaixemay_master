@@ -21,7 +21,7 @@ public class ThisathachDAO {
     public ArrayList<QuestionTSH> getQuestion(int num_exam, String subject) {
         ArrayList<QuestionTSH> lsData = new ArrayList<>();
         SQLiteDatabase db = dbHelper.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT * FROM Onthilaixe WHERE num_exam = '"+num_exam+"' AND subject = '"+subject+"'", null);
+        Cursor cursor = db.rawQuery("SELECT * FROM onthilaixe WHERE num_exam = '"+num_exam+"' AND subject = '"+subject+"'", null);
         cursor.moveToFirst();
         while (cursor.moveToNext()) {
             QuestionTSH item;

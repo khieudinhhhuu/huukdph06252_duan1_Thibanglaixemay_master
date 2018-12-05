@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 //        Toast.makeText(this, "Xóa thành công", Toast.LENGTH_SHORT).show();
         try {
             db.createDataBase();
-            Toast.makeText(this, "Cap nhat thanh cong", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Cập nhật thành công", Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             e.printStackTrace();
         }

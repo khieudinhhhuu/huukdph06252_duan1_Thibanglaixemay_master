@@ -48,7 +48,7 @@
             android:textColor="#ff0000"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text="Bộ đề thi gồm 20 câu, Trong đó có:"/>
+            android:text="Bộ đề thi gồm 19 câu, Trong đó có:"/>
 
         <TextView
             android:id="@+id/contest_welcome_txtLine1"
@@ -57,7 +57,7 @@
             android:layout_marginTop="20dp"
             android:textColor="#000000"
             android:layout_below="@+id/contest_welcome_txtTitle"
-            android:text="- 9 câu về khái niệm và quy tắc giao thông."/>
+            android:text="- 8 câu về khái niệm và quy tắc giao thông."/>
 
         <TextView
             android:id="@+id/contest_welcome_txtLine2"
@@ -89,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/contest_welcome_txtLine4"
             android:layout_marginTop="20dp"
-            android:text="Bạn cần trả lời đúng 16/20 câu trong vòng 15 phút để vượt qua bài thi."
+            android:text="Bạn cần trả lời đúng 16/19 câu trong vòng 15 phút để vượt qua bài thi."
             android:textColor="#000000" />
 
         <TextView
@@ -98,7 +98,7 @@
             android:layout_below="@+id/contest_welcome_txtLine5"
             android:layout_marginTop="20dp"
             android:textSize="18sp"
-            android:text="Lưu ý: null = rỗng. Câu hỏi nào có đáp án null, có nghĩa đáp án đó không có giá trị và không có đáp án đó."
+            android:text="Lưu ý: Câu hỏi nào có đáp án null, có nghĩa đáp án đó không có giá trị và không có đáp án đó (null = rỗng)."
             android:textColor="#ff0000" />
 
         <Button
