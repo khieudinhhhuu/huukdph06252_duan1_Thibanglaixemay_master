@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Thi bằng lái xe máy</string>
     <string name="title_activity_menu">Menu</string>
-    <string name="facebook_app_id">279706142750845</string>
     <string name="open">open</string>
     <string name="close">close</string>
+    <string name="facebook_app_id">279706142750845</string>
+    <string name="fb_login_protocol_scheme">fb279706142750845</string>
 
     <string name="khai_niem_va_quy_tac">1. Có 3 cái luôn phải nhường: Nhường cho phương tiện đường sắt, nhường cho người đi bộ đang đi trên phần đường dành cho người đi bộ, nhường cho xe đi trên đường chính.
 \n\n2. Những câu có 2 đáp án mà trong câu hỏi có xuất hiện từ “Những”hoặc từ “Các” thì chọn cả 2 đáp án (cái này luôn đúng, vì thế trong câu ưu tiên xét cái này trước, nhớ là chỉ đúng cho câu hỏi có 2 đáp án thôi nhé, câu nào 3 đáp án thì không còn đúng nữa).
