@@ -10,13 +10,13 @@ public class QuestionTSH implements Serializable{
     private String answer_c;
     private String answer_d;
     private String result;
-    private int num_exam;
     private String image;
+    private int num_exam;
     private String subject;
     private String traloi = "";
     public int choiceID= -1; //hỗ trợ check Id của radiogroup
 
-    public QuestionTSH(int _id, String question2, String answer_a, String answer_b, String answer_c, String answer_d, String result, int num_exam, String image, String subject) {
+    public QuestionTSH(int _id, String question2, String answer_a, String answer_b, String answer_c, String answer_d, String result, String image, int num_exam, String subject) {
         this._id = _id;
         this.question2 = question2;
         this.answer_a = answer_a;
@@ -24,12 +24,12 @@ public class QuestionTSH implements Serializable{
         this.answer_c = answer_c;
         this.answer_d = answer_d;
         this.result = result;
-        this.num_exam = num_exam;
         this.image = image;
+        this.num_exam = num_exam;
         this.subject = subject;
     }
 
-    public QuestionTSH(int _id, String question2, String answer_a, String answer_b, String answer_c, String answer_d, String result, int num_exam, String image, String subject, String traloi) {
+    public QuestionTSH(int _id, String question2, String answer_a, String answer_b, String answer_c, String answer_d, String result, String image, int num_exam, String subject, String traloi) {
         this._id = _id;
         this.question2 = question2;
         this.answer_a = answer_a;
@@ -37,8 +37,8 @@ public class QuestionTSH implements Serializable{
         this.answer_c = answer_c;
         this.answer_d = answer_d;
         this.result = result;
-        this.num_exam = num_exam;
         this.image = image;
+        this.num_exam = num_exam;
         this.subject = subject;
         this.traloi = traloi;
     }
@@ -102,20 +102,20 @@ public class QuestionTSH implements Serializable{
         this.result = result;
     }
 
-    public int getNum_exam() {
-        return num_exam;
-    }
-
-    public void setNum_exam(int num_exam) {
-        this.num_exam = num_exam;
-    }
-
     public String getImage() {
         return image;
     }
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public int getNum_exam() {
+        return num_exam;
+    }
+
+    public void setNum_exam(int num_exam) {
+        this.num_exam = num_exam;
     }
 
     public String getSubject() {
