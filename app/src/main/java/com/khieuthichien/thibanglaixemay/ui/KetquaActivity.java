@@ -64,6 +64,33 @@ public class KetquaActivity extends AppCompatActivity {
                 builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        startActivity(new Intent(KetquaActivity.this, MenuActivity.class));
+                        finish();
+                    }
+                });
+
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //to do
+                    }
+                });
+
+                builder.show();
+
+            }
+        });
+
+        btnThilai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final AlertDialog.Builder builder = new AlertDialog.Builder(KetquaActivity.this);
+                builder.setIcon(R.drawable.ic_error_outline_black_24dp);
+                builder.setTitle("Thông báo");
+                builder.setMessage("Bạn có muốn thi lại hay không");
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
                         finish();
                     }
                 });

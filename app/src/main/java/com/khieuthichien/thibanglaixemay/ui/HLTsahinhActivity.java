@@ -97,7 +97,7 @@ public class HLTsahinhActivity extends AppCompatActivity implements View.OnClick
                 View view;
                 for(int i: getQuestionHLT().getResult()){
                     view = hlt_lvcacdapanluachon.getChildAt(i);
-                    view.setBackgroundResource(R.color.colorPrimary3);
+                    view.setBackgroundResource(R.color.colorPrimary7);
                 }
                 break;
             case R.id.hlt_btnNext:
@@ -160,7 +160,7 @@ public class HLTsahinhActivity extends AppCompatActivity implements View.OnClick
                 Answer row = (Answer) parent.getItemAtPosition(position);
                 row.setBit(!row.isBit());
                 Button btnchondapan = view.findViewById(R.id.btnchondapan);
-                btnchondapan.setBackgroundResource(row.isBit()?R.color.colorPrimary2:R.color.white);
+                btnchondapan.setBackgroundResource(row.isBit()?R.color.colorAccent:R.color.white);
             }
         });
         setRowIndexSelected(index);

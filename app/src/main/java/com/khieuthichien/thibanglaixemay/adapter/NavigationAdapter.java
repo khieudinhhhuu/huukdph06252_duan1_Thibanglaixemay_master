@@ -30,7 +30,7 @@ public class NavigationAdapter extends ArrayAdapter<Navigation> {
         tvnavigation.setText(navigationList.get(position).getTitle());
 
         if (navigationList.get(position).isColor()) {
-            view.setBackgroundResource(R.color.colorPrimary1);
+            view.setBackgroundResource(R.color.colorAccent);
         }
         return view;
     }

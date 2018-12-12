@@ -43,7 +43,7 @@ public class AnswerAdapter extends ArrayAdapter<Answer> {
         tvcacdapanluachon.setText(row.getText());
 
         // Doi mau button binh thuong
-        btnchondapan.setBackgroundResource(row.isBit()?R.color.colorPrimary2:R.color.white);
+        btnchondapan.setBackgroundResource(row.isBit()?R.color.colorAccent:R.color.white);
 //        // Thay bang dau tich
 //        if (row.isBit())
 //            btn.setBackground(drawable);
