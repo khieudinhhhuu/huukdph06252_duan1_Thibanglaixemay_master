@@ -11,6 +11,7 @@
         android:id="@+id/gvQuestion"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="22dp"
+        android:visibility="gone"
         android:layout_height="330dp"/>
 
     <LinearLayout
@@ -24,14 +25,14 @@
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:text="Đóng"
+            android:text="Không"
             android:id="@+id/btnCancle"
             android:layout_height="wrap_content" />
 
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:text="Kết thúc"
+            android:text="Đồng ý"
             android:id="@+id/btnFinish"
             android:layout_height="wrap_content" />
 

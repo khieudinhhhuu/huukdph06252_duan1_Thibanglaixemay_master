@@ -42,6 +42,7 @@ public class ThisathachActivity extends AppCompatActivity {
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), QuytacthiActivity.class));
                 finish();
+
             }
         });
 

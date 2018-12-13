@@ -248,7 +248,9 @@ public class TSHdethiActivity extends FragmentActivity {
         LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         final View dialogView = inflater.inflate(R.layout.dialog_kiemtra_dapan, null);
         builder.setView(dialogView);
-        builder.setTitle("Danh sách câu trả lời!");
+        builder.setIcon(R.drawable.ic_error_outline_black_24dp);
+        builder.setTitle("Thông báo");
+        builder.setMessage("Bạn có muốn kết thúc bài thi!");
         final Dialog dialog = builder.show();
 
         KiemtradapanAdapter kiemtradapanAdapter = new KiemtradapanAdapter(arr_Ques, this);

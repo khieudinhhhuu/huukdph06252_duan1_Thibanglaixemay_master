@@ -25,6 +25,7 @@ public class KetquaActivity extends AppCompatActivity {
     private TextView tvCaudung;
     private TextView tvCausai;
     private TextView tvCauchuatraloi;
+    private TextView tvCaudatraloi;
     private TextView tvTongdiem;
     private TextView tvKetquacuoicung;
     private Button btnThilai;
@@ -42,7 +43,9 @@ public class KetquaActivity extends AppCompatActivity {
         questionTSHArrayList = (ArrayList<QuestionTSH>) intent.getExtras().getSerializable("arr_Ques");
 
         checkResult();
+        int tota = numFalse + numTrue;
         tvCauchuatraloi.setText(""+numNoAns);
+        tvCaudatraloi.setText(""+tota);
         tvCausai.setText(""+numFalse);
         tvCaudung.setText(""+numTrue);
         tvTongdiem.setText(""+numTrue*1+"/19");
@@ -113,6 +116,7 @@ public class KetquaActivity extends AppCompatActivity {
         tvCaudung = findViewById(R.id.tvCaudung);
         tvCausai = findViewById(R.id.tvCausai);
         tvCauchuatraloi = findViewById(R.id.tvCauchuatraloi);
+        tvCaudatraloi = findViewById(R.id.tvCaudatraloi);
         tvTongdiem = findViewById(R.id.tvTongdiem);
         tvKetquacuoicung = findViewById(R.id.tvKetquacuoicung);
         btnThilai = findViewById(R.id.btnThilai);

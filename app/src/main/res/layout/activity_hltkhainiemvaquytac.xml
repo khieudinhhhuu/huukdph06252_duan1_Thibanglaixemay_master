@@ -71,8 +71,18 @@
                 android:layout_centerVertical="true"
                 android:background="@null"
                 android:onClick="onClick"
-                app:srcCompat="@drawable/ic_check_black_24dp"
                 tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/tvdekiemtradapan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Check đáp án"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <ImageButton
                 android:id="@+id/hlt_btnNext"
